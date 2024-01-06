@@ -27,6 +27,7 @@ export const Container1 = styled.div`
     font-weight: 300;
     margin: 1rem 0;
     font-size: 20px;
+    width: 80%;
   }
 
   @media (min-width: 900px) {
@@ -52,6 +53,7 @@ export const Container1 = styled.div`
 
 export const Container2 = styled.div`
   width: 100%;
+  
   img {
     height: 100%;
     width: 100%;

@@ -14,7 +14,6 @@ export function Home(){
             <Container2>
                 <img src={homeImg} alt="" />
             </Container2>
-
         </HomeContainer>
     )
 }
