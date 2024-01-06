@@ -20,6 +20,11 @@ import {createGlobalStyle} from "styled-components"
         margin-top: 4rem;
     }
 
+    button{
+        border: none;
+        cursor: pointer;
+    }
+
 @media (min-width: 900px){
 
     main{
