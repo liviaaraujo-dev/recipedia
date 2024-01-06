@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.section`
-  /* padding: 2rem; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -17,7 +16,7 @@ export const HomeContainer = styled.section`
 `;
 
 export const Container1 = styled.div`
-  margin-top: 7rem;
+  margin-top: 2rem;
 
   h2 {
     font-size: 36px;
@@ -33,6 +32,8 @@ export const Container1 = styled.div`
   @media (min-width: 900px) {
     width: 50%;
     text-align: left;
+    margin-top: 2rem;
+
     h2 {
       font-size: 42px;
     }
@@ -48,6 +49,7 @@ export const Container1 = styled.div`
     }
   }
 `;
+
 export const Container2 = styled.div`
   width: 100%;
   img {

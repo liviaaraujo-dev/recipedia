@@ -21,7 +21,7 @@ export const AboutUsContainer = styled.section`
   }
 `;
 
-export const AboutUsBox = styled.section`
+export const AboutUsBox = styled.div`
   background-color: #fff;
   width: 80%;
   padding: 2rem;
@@ -55,7 +55,7 @@ export const AboutUsBox = styled.section`
   }
 `;
 
-export const AboutUsCard = styled.section`
+export const AboutUsCard = styled.div`
   width: 14rem;
   height: 5rem;
   padding: 1rem;

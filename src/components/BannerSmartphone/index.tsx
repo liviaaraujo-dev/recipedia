@@ -1,11 +1,7 @@
-import { BannerSmartphoneContainer, ButtonShop, ButtonsShopContainer } from "./style";
+import { BannerSmartphoneContainer, ButtonShop, ButtonsShopContainer } from "./styles";
 import smartphoneImg from "../../assets/images/smartphone.png"
-
 import { FaGooglePlay } from "react-icons/fa";
 import { FaApple } from "react-icons/fa6";
-
-
-
 
 export function BannerSmartphone(){
     return(

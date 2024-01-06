@@ -11,9 +11,10 @@ export const HeaderContainer = styled.header`
   &.open {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 1rem 2rem 1rem 1.8rem;
     height: 100%;
+
   }
 
   .mobile-container {
@@ -68,8 +69,11 @@ export const Navigation = styled.nav`
   ul.open {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 2rem;
     margin-top: 3rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+
   }
 
   li {
