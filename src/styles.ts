@@ -15,4 +15,16 @@ import {createGlobalStyle} from "styled-components"
     a{
         text-decoration: none;
     }
+
+    main{
+        margin-top: 4rem;
+    }
+
+@media (min-width: 900px){
+
+    main{
+        margin-top: 6rem;
+
+    }
+}
 `

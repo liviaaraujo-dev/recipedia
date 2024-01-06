@@ -5,6 +5,8 @@ export const HeaderContainer = styled.header`
   position: fixed;
   background-color: #fff;
   width: 100%;
+  z-index: 50;
+  top: 0;
 
   &.open {
     display: flex;
@@ -13,8 +15,8 @@ export const HeaderContainer = styled.header`
     padding: 1rem 2rem 1rem 1.8rem;
     height: 100%;
   }
-  
-  .mobile-container{
+
+  .mobile-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,21 +42,27 @@ export const Title = styled.h1`
   img {
     height: 1.6rem;
   }
+
+  @media (min-width: 900px) {
+    a {
+      font-size: 24px;
+    }
+  }
 `;
 
 export const ButtonOpen = styled.button`
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 
-    @media (min-width: 900px) {
-        display: none;
-    }
-`
+  @media (min-width: 900px) {
+    display: none;
+  }
+`;
 
 export const Navigation = styled.nav`
-display: none;
+  display: none;
 
-  &.open{
+  &.open {
     display: flex;
   }
   ul.open {
@@ -77,25 +85,24 @@ display: none;
   @media (min-width: 900px) {
     display: flex;
 
-    ul{
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
     }
   }
 `;
 
 export const ContainerButtons = styled.div`
+  display: none;
 
-display: none;
+  @media (min-width: 900px) {
+    display: flex;
+    gap: 1rem;
+  }
 
-    @media (min-width: 900px) {
-       display: flex;
-       gap: 1rem;
-    }
-    
-    button{
-        background-color: transparent;
-        border: none;
-    }
-`
+  button {
+    background-color: transparent;
+    border: none;
+  }
+`;
