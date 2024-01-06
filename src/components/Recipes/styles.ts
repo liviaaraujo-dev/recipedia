@@ -15,7 +15,7 @@ export const RecipesContainer = styled.section`
   }
 `;
 
-export const RecipesHeaderContainer = styled.section`
+export const RecipesHeaderContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
