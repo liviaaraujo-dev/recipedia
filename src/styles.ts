@@ -23,7 +23,7 @@ import {createGlobalStyle} from "styled-components"
 @media (min-width: 900px){
 
     main{
-        margin-top: 6rem;
+        margin-top: 4rem;
 
     }
 }

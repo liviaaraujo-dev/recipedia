@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.section`
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,8 @@ export const HomeContainer = styled.section`
 `;
 
 export const Container1 = styled.div`
+  margin-top: 7rem;
+
   h2 {
     font-size: 36px;
   }
@@ -25,6 +27,7 @@ export const Container1 = styled.div`
     color: #7f7d7d;
     font-weight: 300;
     margin: 1rem 0;
+    font-size: 20px;
   }
 
   @media (min-width: 900px) {
