@@ -33,21 +33,20 @@ export function Header(){
 
             <Navigation className={isMenu ? 'open' : ''}>
                 <ul className={isMenu ? 'open' : ''}>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Receitas</a></li>
-                    <li><a href="">Comunidade</a></li>
-                    <li><a href="">Quem somos</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#recipes">Receitas</a></li>
+                    <li><a href="#community">Comunidade</a></li>
+                    <li><a href="#about-us">Quem somos</a></li>
                 </ul>
            </Navigation>
 
            <ContainerButtons>
                 <button>
-                <CiSearch size={30} />
-                    
+                    <CiSearch size={30} />   
                 </button>
-                <button>
 
-                <GoPerson size={30} />
+                <button>
+                    <GoPerson size={30} />
                 </button>
            </ContainerButtons>
         </HeaderContainer>
