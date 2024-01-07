@@ -13,7 +13,7 @@ export function RecipeItem(props: RecipeInterface) {
 
   return (
     <RecipeItemContainer>
-      <img src={props.img} alt="" />
+      <img src={props.img} alt={`${props.name} imagem`} />
 
       <RecipeData>
         <DataItem>

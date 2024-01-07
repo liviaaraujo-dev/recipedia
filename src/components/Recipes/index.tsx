@@ -1,6 +1,11 @@
 import { ButtonPrimary } from "../ButtonPrimary";
 import { RecipeItem } from "../RecipeItem";
 import recipe1 from "../../assets/images/recipe1.png";
+import recipe2 from "../../assets/images/recipe2.png";
+import recipe3 from "../../assets/images/recipe3.png";
+import recipe4 from "../../assets/images/recipe4.png";
+import recipe5 from "../../assets/images/recipe5.png";
+import recipe6 from "../../assets/images/recipe6.png";
 import { RecipesContainer, RecipesHeaderContainer, RecipesItens } from "./styles";
 
 export function Recipes(){
@@ -13,50 +18,50 @@ export function Recipes(){
             level: "Fácil",
             img: recipe1
         },
-          {
-            name: "Salada Cremosa",
+        {
+            name: "Sopa de tomates",
             link: "",
-            mins: 25,
-            qtPersons: 2,
+            mins: 15,
+            qtPersons: 3,
             level: "Fácil",
-            img: recipe1
+            img: recipe2
         },
           {
-            name: "Salada Cremosa",
+            name: "Batatas crocantes",
             link: "",
-            mins: 25,
+            mins: 10,
             qtPersons: 2,
             level: "Fácil",
-            img: recipe1
+            img: recipe3
         },
           {
-            name: "Salada Cremosa",
+            name: "Sopa de Cogumelos",
             link: "",
             mins: 25,
             qtPersons: 2,
-            level: "Fácil",
-            img: recipe1
+            level: "Médio",
+            img: recipe4
         },
           {
-            name: "Salada Cremosa",
+            name: "Panqueca de framboesa",
             link: "",
-            mins: 25,
-            qtPersons: 2,
+            mins: 30,
+            qtPersons: 1,
             level: "Fácil",
-            img: recipe1
+            img: recipe5
         },
           {
-            name: "Salada Cremosa",
+            name: "Teriyaki de carne",
             link: "",
             mins: 25,
-            qtPersons: 2,
+            qtPersons: 1,
             level: "Fácil",
-            img: recipe1
+            img: recipe6
         },
     ];
 
     return (
-    <RecipesContainer>
+    <RecipesContainer id="recipes">
         <RecipesHeaderContainer>
             <div>
                 <h2>Descubra, Crie, Compartilhe</h2>
@@ -66,7 +71,7 @@ export function Recipes(){
         </RecipesHeaderContainer>
         <RecipesItens>
             {
-                recipesList.map(recipe => <RecipeItem level={recipe.level} name={recipe.name} mins={recipe.mins} qtPersons={recipe.qtPersons} link={recipe.link} img={recipe1}/>  )
+                recipesList.map(recipe => <RecipeItem level={recipe.level} name={recipe.name} mins={recipe.mins} qtPersons={recipe.qtPersons} link={recipe.link} img={recipe.img}/>  )
             }
         </RecipesItens>
     </RecipesContainer>)

@@ -28,6 +28,14 @@ export const RecipeItemContainer = styled.div`
 
     }
   }
+
+  
+  @media (min-width: 2500px) {
+    img{
+      height: 28rem;
+
+    }
+  }
 `;
 
 export const RecipeData = styled.div`

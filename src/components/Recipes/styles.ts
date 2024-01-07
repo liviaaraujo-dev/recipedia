@@ -10,9 +10,7 @@ export const RecipesContainer = styled.section`
     padding: 0 3rem;
   }
 
-  @media (min-width: 1300px) {
-    /* padding: 0 3rem; */
-  }
+
 `;
 
 export const RecipesHeaderContainer = styled.div`
@@ -24,7 +22,7 @@ export const RecipesHeaderContainer = styled.div`
   margin-top: 8rem;
 
   h2 {
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 600;
     color: #000;
   }
@@ -33,6 +31,7 @@ export const RecipesHeaderContainer = styled.div`
     color: #7f7d7d;
     font-size: 24px;
     margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 
   @media (min-width: 900px) {
@@ -40,10 +39,17 @@ export const RecipesHeaderContainer = styled.div`
     align-items: flex-start;
     justify-content: space-between;
     text-align: left;
+
+    
   }
 
   @media (min-width: 1300px) {
     padding: 0 3rem;
+
+    h2{
+    font-size: 46px;
+
+    }
   }
 
   @media (min-width: 2500px) {

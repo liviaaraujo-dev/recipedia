@@ -17,6 +17,9 @@ export const HomeContainer = styled.section`
 
 export const Container1 = styled.div`
   margin-top: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
   h2 {
     font-size: 36px;
@@ -27,13 +30,14 @@ export const Container1 = styled.div`
     font-weight: 300;
     margin: 1rem 0;
     font-size: 20px;
-    width: 80%;
+    width: 90%;
   }
 
   @media (min-width: 900px) {
     width: 50%;
     text-align: left;
     margin-top: 2rem;
+    align-items: flex-start;
 
     h2 {
       font-size: 42px;

@@ -3,7 +3,7 @@ import { AboutUsBox, AboutUsCard, AboutUsContainer } from "./styles";
 
 export function AboutUs(){
     return(
-        <AboutUsContainer>
+        <AboutUsContainer id="about-us">
             <AboutUsCard>
                 <p>50+ Receitas de Comida Rápida 
                 Fácil de fazer!</p>

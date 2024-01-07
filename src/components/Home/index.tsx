@@ -4,7 +4,7 @@ import { ButtonPrimary } from "../ButtonPrimary";
 
 export function Home(){
     return (
-        <HomeContainer>
+        <HomeContainer id="home">
             <Container1>
                 <h2>Cozinhar Feito Divertido e Fácil: Liberte o Seu Chef Interior</h2>
                 <p>Descubra mais de 10.000 receitas na sua mão com a melhor receita. Ajudá-lo a encontrar a maneira mais fácil de cozinhar.</p>
