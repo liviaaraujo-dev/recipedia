@@ -2,7 +2,7 @@
 Landing Page para um aplicativo de receitas.
 
 ## Deploy no Netlify
-<https://liviaaraujo.netlify.app/>
+<https://celadon-travesseiro-320af8.netlify.app/>
 
 ## Tecnologias
 
